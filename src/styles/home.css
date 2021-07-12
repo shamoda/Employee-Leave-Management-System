@@ -1,0 +1,66 @@
+body{
+	margin: auto;
+}
+
+.wallpaper{
+	margin-left:80px;     /*home page image*/
+}
+
+nav {
+  float: left;
+  width: 50%;          /*dividing into two sections*/
+  height: 100%;
+  padding: 20px;
+  margin-left:30px;
+}
+
+article {
+  float: right;
+  width: 50%;          /*dividing into two sections*/
+  height: 100%;
+  padding: 20px;
+}
+
+section:after {
+  content: "";
+  display: table;     /*displaying two sections one after another*/
+  clear: both;
+}
+
+.login{
+	margin-top:0px;
+	font-size:40px;     /*login title style*/
+	color:#0005ca;
+}
+
+.input{
+	background:none;
+	outline:none;
+	border-color:none;
+	border-width:2px;
+	width:100%;          /*text input sections styles*/
+	height:20px;
+}
+
+
+
+.forgotpwd{
+	color:red;                   /*forgot password link styles*/
+}
+
+.form1{
+	padding-top:0px;
+	margin-top:auto;
+	margin-left:200px;
+	margin-right:150px;
+	margin-bottom:auto;
+	padding: 85px;
+	border-style: groove;
+	border-color: Black;
+}
+
+.bg{
+	background:url(../images/login.png)no-repeat ;
+	background-size:cover;
+}
+

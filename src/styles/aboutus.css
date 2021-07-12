@@ -1,0 +1,24 @@
+body{
+	margin: auto;
+}
+
+.title{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:black;
+	font-size:40px;
+}
+
+.para {
+
+font-size:20px;
+margin-left:20%;
+margin-right:20%;	
+
+}
+
+.img {
+	margin-left:35%;
+	margin-right:35%
+}
+

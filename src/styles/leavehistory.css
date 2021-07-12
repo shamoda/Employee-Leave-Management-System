@@ -1,0 +1,26 @@
+body{
+	margin: auto;
+}
+
+
+th, td{
+	height: 40px;
+	width:16.6%;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover{
+	background-color: #D3F6FC;
+}
+
+th{
+	background-color: #A4C7FE;
+}
+
+.admin{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:black;
+	font-size:40px;
+}

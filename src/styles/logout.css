@@ -1,0 +1,47 @@
+body{
+	margin: auto;
+}
+
+.title{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:black;
+	font-size:40px;
+}
+
+.login{
+	margin-top:0px;
+	font-size:40px;     /*login title style*/
+	color:#0005ca;
+}
+
+
+.form1{
+	padding-top:0px;
+	margin-top:auto;
+	margin-left:35%;
+	margin-right:35%;
+	margin-bottom:auto;
+	padding: 85px;
+	border-style: groove;
+	border-color: Black;
+}
+
+.bg{
+	background:url(../images/login.png)no-repeat ;
+	background-size:cover;
+}
+
+.input{
+	background:none;
+	outline:none;
+	border-color:none;
+	border-width:2px;
+	width:100%;          /*text input sections styles*/
+	height:20px;
+}
+
+
+.forgotpwd{
+	color:red;                   /*forgot password link styles*/
+}

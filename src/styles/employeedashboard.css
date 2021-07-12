@@ -1,0 +1,90 @@
+body{
+	margin: auto;
+}
+
+nav {
+  float: left;
+  width: 20%;          /*dividing into two sections*/
+  height: 620px;
+  padding-bottom: 10px;
+  padding-top:30px;
+  margin-left:10px;
+  border-style: groove;
+  border-color: DarkBlue;
+}
+
+article {
+  float: right;
+  width: 70%;          /*dividing into two sections*/
+  height: 620px;
+  padding: 20px;
+  margin-right:40px;
+
+  
+}
+
+section:after {
+  content: "";
+  display: table;     /*displaying two sections one after another*/
+  clear: both;
+}
+
+
+
+
+.admin{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:black;
+	font-size:40px;
+}
+
+
+
+.column1 {
+  float: left;
+  width: 65%;
+
+  
+}
+
+.column2 {
+  float: right;
+  width: 30%;
+
+}
+
+.columnlabel {
+  float: left;
+  width: 45%;
+
+  
+}
+
+.columninput {
+  float: right;
+  width: 48%;
+
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.button2{
+	height:30px;
+	margin-left:160px;
+	background-color:#3035FF; 
+	border-color:#3035FF;        /*button styles*/
+	color:white
+}
+
+.inputarea{
+	width:250px;
+}
+
+

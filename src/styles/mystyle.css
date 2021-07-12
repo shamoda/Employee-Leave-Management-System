@@ -1,0 +1,57 @@
+﻿body{
+	margin: auto;
+	background-color:#F2FDFF;
+}
+
+a{
+	text-decoration:none;
+}
+
+.nav{
+	text-align:right;
+	
+}
+
+.navbtn{
+	margin-left:20px;
+	margin-right:20px;
+	font-size: 20px;
+}
+
+a:hover{
+	background-color:#b3ecff;
+}
+
+.hr{
+	border: 2px solid black;
+	margin:0;
+    padding:0;
+}
+div {
+	display: block;
+}
+
+
+}
+a:link, a:visited {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+} 
+ .footer{
+	margin:0;
+    padding:0;
+}
+
+.footerdiv {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/footer.png);
+    background-size: 100% 100%;
+}​
+
